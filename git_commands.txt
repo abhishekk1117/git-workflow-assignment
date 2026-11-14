@@ -1,0 +1,82 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir git-workflow-assignment
+Creates the project directory.
+
+2. cd git-workflow-assignment
+Navigates into the project directory.
+
+3. git init -b main
+Initializes a Git repository with main as the default branch.
+
+4. touch index.html about.html
+Creates the HTML files.
+
+5. git add .
+Stages all changes for committing.
+
+6. git commit -m "Initial commit: Add HTML project files"
+Creates the initial repository commit.
+
+7. git add index.html
+Stages the modified homepage.
+
+8. git commit -m "Update homepage content"
+Records the homepage modification.
+
+9. git branch feature
+Creates a new branch named feature.
+
+10. git switch feature
+Switches to the feature branch.
+
+11. git switch main
+Switches back to the main branch.
+
+12. git merge feature
+Merges the feature branch into main.
+
+13. git log --oneline --graph --all
+Displays the commit history graphically.
+
+14. touch .gitignore
+Creates the Git ignore configuration file.
+
+15. git status
+Displays the current repository status.
+
+16. git check-ignore -v application.log temp/test.txt
+Verifies that specified files are ignored by Git.
+
+17. git add .gitignore
+Stages the .gitignore file.
+
+18. git commit -m "Add gitignore configuration"
+Records the ignore configuration.
+
+19. echo "This change will be reverted." > undo_test.txt
+Creates a temporary test file.
+
+20. git add undo_test.txt
+Stages the temporary test file.
+
+21. git commit -m "Add temporary test file"
+Records the temporary file in Git history.
+
+22. git revert HEAD
+Creates a new commit that reverses the previous commit.
+
+23. git remote add origin URL
+Connects the local repository to GitHub.
+
+24. git remote -v
+Displays configured remote repository URLs.
+
+25. git push -u origin main
+Pushes the main branch to GitHub.
+
+26. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+27. git log --oneline
+Displays a compact commit history.
